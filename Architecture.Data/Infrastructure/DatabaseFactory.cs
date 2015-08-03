@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Architecture.Data.Infrastructure
 {
-    class DatabaseFactory
+    public class DatabaseFactory
     {
+
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Architecture.Data.Infrastructure
 {
-    class IDatabaseFactory
+    public class IDatabaseFactory : IDisposable
     {
+
     }
 }
