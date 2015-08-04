@@ -32,7 +32,7 @@ namespace Architecture.Entities
 
         public string DisplayName
         {
-            get { return FirstName + " " + LastName}
+            get { return FirstName + " " + LastName; }
         }
     }
 }

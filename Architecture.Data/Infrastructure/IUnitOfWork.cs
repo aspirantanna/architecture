@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Architecture.Data.Infrastructure
 {
-    public interface IDatabaseFactory : IDisposable
+    public interface IUnitOfWork
     {
-        ArchitectureEntities Get();
+        void Commit();
     }
 }

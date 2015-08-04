@@ -12,7 +12,12 @@ namespace Architecture.Data
     {
         public ArchitectureEntities() : base("ArchitectureEntities")
         {
-                
+
+        }
+        
+        public virtual void Commit()
+        {
+            base.SaveChanges();
         }
     }
 }

@@ -42,6 +42,9 @@
     <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
       <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
     </Reference>
+    <Reference Include="PagedList">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -53,12 +56,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArchitectureEntities.cs" />
+    <Compile Include="Configuration\ApplicationUserConfiguration.cs" />
     <Compile Include="Infrastructure\DatabaseFactory.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDatabaseFactory.cs" />
+    <Compile Include="Infrastructure\IRepository.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Infrastructure\Page.cs" />
+    <Compile Include="Infrastructure\RepositoryBase.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Configuration\" />
     <Folder Include="Repository\" />
   </ItemGroup>
   <ItemGroup>
