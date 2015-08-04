@@ -1,4 +1,5 @@
-﻿using PagedList;
+﻿using Architecture.Data.Models;
+using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Architecture.Data.Infrastructure
 {
-    public class RepositoryBase<T> where T : class
+    public abstract class RepositoryBase<T> where T : class
     {
         private ArchitectureEntities dataContext;
         private readonly IDbSet<T> dbset;

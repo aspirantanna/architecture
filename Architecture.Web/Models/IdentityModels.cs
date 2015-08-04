@@ -21,7 +21,7 @@ namespace Architecture.Web.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Architecture", throwIfV1Schema: false)
         {
         }
 
@@ -29,5 +29,7 @@ namespace Architecture.Web.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Architecture.Entities.Masters.Company> Companies { get; set; }
     }
 }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Data", "Archit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Entities", "Architecture.Entities\Architecture.Entities.csproj", "{11C943F8-1E60-4B59-A7BC-E943C764E3A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Service", "Architecture.Service\Architecture.Service.csproj", "{5C3DAAC1-D789-4546-A66D-40636D368271}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{11C943F8-1E60-4B59-A7BC-E943C764E3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11C943F8-1E60-4B59-A7BC-E943C764E3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11C943F8-1E60-4B59-A7BC-E943C764E3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3DAAC1-D789-4546-A66D-40636D368271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3DAAC1-D789-4546-A66D-40636D368271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3DAAC1-D789-4546-A66D-40636D368271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3DAAC1-D789-4546-A66D-40636D368271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

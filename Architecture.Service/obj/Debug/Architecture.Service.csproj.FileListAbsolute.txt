@@ -1,0 +1,17 @@
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Architecture.Service.dll
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Architecture.Service.pdb
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Architecture.Data.dll
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Architecture.Entities.dll
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\EntityFramework.dll
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\PagedList.dll
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Architecture.Data.pdb
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Architecture.Entities.pdb
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\EntityFramework.xml
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\PagedList.xml
+E:\Projects\TEST2\architecture\Architecture.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Projects\TEST2\architecture\Architecture.Service\obj\Debug\Architecture.Service.csprojResolveAssemblyReference.cache
+E:\Projects\TEST2\architecture\Architecture.Service\obj\Debug\Architecture.Service.dll
+E:\Projects\TEST2\architecture\Architecture.Service\obj\Debug\Architecture.Service.pdb
