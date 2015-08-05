@@ -1,0 +1,14 @@
+Architecture.Data/bin/
+Architecture.Data/obj/
+Architecture.Entities/bin/
+Architecture.Entities/obj/
+Architecture.Service/bin/
+Architecture.Service/obj/
+Architecture.Web/bin/
+Architecture.Web/obj/
+Architecture.Web.Core/bin/
+Architecture.Web.Core/obj/
+Architecture.Web.Tests/bin/
+Architecture.Web.Tests/obj/
+Architecture.Web.Tests/app.config
+packages/
