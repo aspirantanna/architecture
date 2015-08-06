@@ -20,7 +20,7 @@ namespace Architecture.Data.Models
         }
 
         public DbSet<Company> Company { get; set; }
-        public DbSet<State> State { get; set; }
+        //public DbSet<State> State { get; set; }
 
         public virtual void Commit()
         {
@@ -32,7 +32,7 @@ namespace Architecture.Data.Models
             base.OnModelCreating(modelBuilder);
             modelBuilder.Conventions.Remove<IncludeMetadataConvention>();
             modelBuilder.Configurations.Add(new CompanyConfiguration());
-            modelBuilder.Configurations.Add(new StateConfiguration());
+            //modelBuilder.Configurations.Add(new StateConfiguration());
         }
     }
 }

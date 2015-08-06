@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace Architecture.Data.Repository
 {
-    public class StateRepository : RepositoryBase<State>, IStateRepository
-    {
-        public StateRepository(IDatabaseFactory databaseFactory):base(databaseFactory)
-        {
+    //public class StateRepository : RepositoryBase<State>, IStateRepository
+    //{
+    //    public StateRepository(IDatabaseFactory databaseFactory):base(databaseFactory)
+    //    {
                 
-        }
-    }
+    //    }
+    //}
 
-    public interface IStateRepository : IRepository<State>
-    {
-    }
+    //public interface IStateRepository : IRepository<State>
+    //{
+    //}
 }

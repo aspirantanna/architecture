@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Architecture.Entities.Masters
 {
-    public class State
-    {
-        [Key]
-        public int StateId { get; set; }
+    //public class State
+    //{
+    //    [Key]
+    //    public int StateId { get; set; }
 
-        [Required]
-        public string StateName { get; set; }
-    }
+    //    [Required]
+    //    public string StateName { get; set; }
+    //}
 }

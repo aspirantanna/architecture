@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Architecture.Data.Configuration
 {
-    public class StateConfiguration:EntityTypeConfiguration<State>
-    {
-        public StateConfiguration()
-        {
-            Property(c => c.StateName).HasMaxLength(250);
-        }
-    }
+    //public class StateConfiguration:EntityTypeConfiguration<State>
+    //{
+    //    public StateConfiguration()
+    //    {
+    //        Property(c => c.StateName).HasMaxLength(250);
+    //    }
+    //}
 }
