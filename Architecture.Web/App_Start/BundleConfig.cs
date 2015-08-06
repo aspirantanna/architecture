@@ -24,7 +24,7 @@ namespace Architecture.Web
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/cerulean.bootstrap.css",
+                      "~/Content/cerulean.bootstrap.min.css",
                       "~/Content/site.css"));
         }
     }

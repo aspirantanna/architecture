@@ -1,4 +1,5 @@
-﻿using Architecture.Web.App_Start;
+﻿using Architecture.Data;
+using Architecture.Web.App_Start;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace Architecture.Web
     {
         protected void Application_Start()
         {
+            System.Data.Entity.Database.SetInitializer(new ConfigData());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

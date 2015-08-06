@@ -19,7 +19,10 @@
             @Html.DisplayNameFor(model => model.ShortName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Address)
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Website)
         </th>
         <th></th>
     </tr>
@@ -33,7 +36,10 @@
             @Html.DisplayFor(modelItem => item.ShortName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Address)
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Website)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.CompanyId }) |

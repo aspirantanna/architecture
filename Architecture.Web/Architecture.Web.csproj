@@ -197,6 +197,19 @@
     <Compile Include="Mappings\AutoMapperConfiguration.cs" />
     <Compile Include="Mappings\DomainToViewModelMappingProfile.cs" />
     <Compile Include="Mappings\ViewModelToDomainMappingProfile.cs" />
+    <Compile Include="Migrations\201508050448522_InitialCreate.cs" />
+    <Compile Include="Migrations\201508050448522_InitialCreate.Designer.cs">
+      <DependentUpon>201508050448522_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508052331033_AddEmailWebsite.cs" />
+    <Compile Include="Migrations\201508052331033_AddEmailWebsite.Designer.cs">
+      <DependentUpon>201508052331033_AddEmailWebsite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508060030377_AddColumnsInCompany.cs" />
+    <Compile Include="Migrations\201508060030377_AddColumnsInCompany.Designer.cs">
+      <DependentUpon>201508060030377_AddColumnsInCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -208,6 +221,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\cerulean.bootstrap.css" />
     <Content Include="Content\cerulean.bootstrap.min.css" />
+    <Content Include="Content\images\logo - Copy.png" />
+    <Content Include="Content\images\logo.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -263,9 +278,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Company\Index.cshtml" />
     <Content Include="Views\Company\Details.cshtml" />
-    <Content Include="Views\Company\Create.cshtml" />
     <Content Include="Views\Company\Edit.cshtml" />
     <Content Include="Views\Company\Delete.cshtml" />
+    <Content Include="Views\Company\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -294,6 +309,17 @@
       <Project>{4741dad8-79ad-41ab-b40f-13d6230d13ca}</Project>
       <Name>Architecture.Web.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201508050448522_InitialCreate.resx">
+      <DependentUpon>201508050448522_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508052331033_AddEmailWebsite.resx">
+      <DependentUpon>201508052331033_AddEmailWebsite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508060030377_AddColumnsInCompany.resx">
+      <DependentUpon>201508060030377_AddColumnsInCompany.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
